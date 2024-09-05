@@ -33,7 +33,7 @@ const Login = () => {
         localStorage.setItem("userId", data.userId);
         setTimeout(() => {
           navigate("/");
-        }, 100);
+        }, 1000);
       }else{
         setError(data.message);
       }
